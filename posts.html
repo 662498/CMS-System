@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Page</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+	<div class="container">
+		<div class="navbar-header">
+			<a href="Full Website.html" class="navbar-brand">CMS SYSTEM</a>
+		</div>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="Full Website.html">Home</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Danish <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Logout</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="col-md-3">
+		<ul class="navbar navbar-default nav" style="height: 100vh;">
+			<li><a href="index.html"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
+			<li><a href="#new" data-toggle="collapse"><span class="glyphicon glyphicon-plus"></span> New Items</a></li>
+			<ul class="nav collapse" id="new">
+				<li><a href="new-post.html"><div class="col-md-1"></div><span class="glyphicon glyphicon-pencil"></span> Write Post</a></li>
+				<li><a href="new-category"><div class="col-md-1"></div><span class="glyphicon glyphicon-edit"></span> Write Category</a></li>
+			</ul>
+			<li><a href="posts.html"><span class="glyphicon glyphicon-list"></span> Posts</a></li>
+			<li><a href="categories.html"><span class="glyphicon glyphicon-tasks"></span> Categories</a></li>
+		</ul>
+	</div>
+	<div class="col-md-9">
+		<div class="panel panel-default">
+				<div class="panel-heading">Latest Posts</div>
+				<div class="panel-body">
+					<table class="table table-striped">
+						<tr>
+							<th>S.no</th>
+							<th>Title</th>
+							<th>Discription</th>
+							<th>Category</th>
+							<th>Date</th>
+							<th>Author</th>
+							<th>Status</th>
+							<th>Edit</th>
+							<th>Delete</th>
+						</tr>
+						<tr>
+							<td>1.</td>
+							<td>How To Achieve Your Goal?</td>
+							<td>A Perfect Plan To Reach...</td>
+							<td>Manner Of Life</td>
+							<td>15-03-1999</td>
+							<td>John Lee</td>
+							<td><button class="btn btn-info btn-sm">Draft</button> </td>
+							<td><button class="btn btn-success btn-sm">Edit</button> </td>
+							<td><button class="btn btn-danger btn-sm">Delete</button> </td>
+						</tr>
+						<tr>
+							<td>2.</td>
+							<td>Good & Bad Habits</td>
+							<td>A Man Depends On His Habits.</td>
+							<td>Manner Of Life</td>
+							<td>22-12-2006</td>
+							<td>George White</td>
+							<td><button class="btn btn-info btn-sm">Draft</button> </td>
+							<td><button class="btn btn-success btn-sm">Edit</button> </td>
+							<td><button class="btn btn-danger btn-sm">Delete</button> </td>
+						</tr>
+						<tr>
+							<td>3.</td>
+							<td>The War</td>
+							<td>War Is Totaly Destruction!!</td>
+							<td>Manner Of Life</td>
+							<td>19-06-2001</td>
+							<td>Williamson Wood</td>
+							<td><button class="btn btn-info btn-sm">Draft</button> </td>
+							<td><button class="btn btn-success btn-sm">Edit</button> </td>
+							<td><button class="btn btn-danger btn-sm">Delete</button> </td>
+						</tr>
+						<tr>
+							<td>4.</td>
+							<td>A Successful & Failure Person</td>
+							<td>A Perfect Plan To Reach...</td>
+							<td>Manner Of Life</td>
+							<td>09-05-2011</td>
+							<td>Tie Whittaker</td>
+							<td><button class="btn btn-info btn-sm">Draft</button> </td>
+							<td><button class="btn btn-success btn-sm">Edit</button> </td>
+							<td><button class="btn btn-danger btn-sm">Delete</button> </td>
+						</tr>
+						<tr>
+							<td>5.</td>
+							<td>Never Give Up!!!</td>
+							<td>Try Again Again Again..</td>
+							<td>Manner Of Life</td>
+							<td>02-08-2016</td>
+							<td>Bret Hoe</td>
+							<td><button class="btn btn-info btn-sm">Draft</button> </td>
+							<td><button class="btn btn-success btn-sm">Edit</button> </td>
+							<td><button class="btn btn-danger btn-sm">Delete</button> </td>
+						</tr>
+					</table>
+					<div class="text-center">
+						<ul class="pagination">
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+					</ul>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+</body>
+</html>
